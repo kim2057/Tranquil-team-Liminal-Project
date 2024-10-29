@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 3c4513b067f7cea4aa94f7ef03326623, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -2734,8 +2734,8 @@ Mesh:
     firstVertex: 0
     vertexCount: 24
     localAABB:
-      m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0, y: 0, z: 0}
+      m_Center: {x: 0.5, y: 0.5, z: -0.5}
+      m_Extent: {x: 0.5, y: 0.5, z: 0.5}
   m_Shapes:
     vertices: []
     shapes: []
@@ -4622,7 +4622,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!81 &495676700
 AudioListener:
   m_ObjectHideFlags: 0
@@ -6912,13 +6912,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 784223939}
-  m_LocalRotation: {x: 0.029198285, y: -0.38083637, z: -0.070739575, w: 0.92147005}
-  m_LocalPosition: {x: -3.1017857, y: -0.023569107, z: -0.20512295}
+  m_LocalRotation: {x: -0.003104018, y: -0.7316756, z: -0.07646563, w: 0.67734355}
+  m_LocalPosition: {x: -1.6364818, y: 0.36223817, z: -0.46624804}
   m_LocalScale: {x: 0.41036993, y: 6.6142, z: 0.40038005}
   m_Children: []
   m_Father: {fileID: 1427300261}
   m_RootOrder: 29
-  m_LocalEulerAnglesHint: {x: -0.004, y: -44.910004, z: -8.778001}
+  m_LocalEulerAnglesHint: {x: -6.6670003, y: -94.08301, z: -5.723}
 --- !u!64 &784223941
 MeshCollider:
   m_ObjectHideFlags: 0
